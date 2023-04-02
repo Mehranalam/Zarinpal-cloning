@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "yekanBakhRegular";
+    src: url(./assets/fonts/Yekan\ Bakh\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "iranyekanregular";
+    src: url(./assets/fonts/iranyekanwebregular.woff);
+}
+
+@font-face {
+    font-family: "lalezarReqular";
+    src: url(./assets/fonts/Lalezar-Regular.woff);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: "yekanBakhRegular";
+    font-size: small;
+}
+
+.box-family {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-family button {
+    border: 0 solid;
+    background-color: rgba(232, 239, 254, .6);
+    border-radius: 20px;
+    height: fit-content;
+    padding: 15px;
+    font-family: "yekanBakhRegular";
+    font-size: small;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #28457b !important;
+}
+
+header .box-family ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header .box-family ul li {
+    margin: 20px;
+}
+
+.intro-card-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(135deg, #21254e, #2b4a83);
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.intro-card-view img {
+    width: 500px;
+    height: 534px;
+    margin: 50px;
+}
+
+.intro-card-view .description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-family: "yekanBakhRegular";
+    padding: 50px;
+    padding-top: 110px;
+}
+
+.intro-card-view .description h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.intro-card-view .description p {
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+    font-family: "yekanBakhRegular";
+    color: white;
+}
+
+.button-home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.register-button {
+    border: 0 solid;
+    margin-left: 10px;
+    font-family: "yekanBakhRegular";
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: transparent linear-gradient(270deg, #ffd900, #ffe422) 0 0 no-repeat padding-box;
+}
+
+.intro-card-view .description .button-home .enter-button {
+    border: 0 solid;
+    color: #fff !important;
+    background: #435a8a 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    padding: 4px 14px;
+    font-family: "yekanBakhRegular";
+}
+
+.introing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.introing .description-introing {
+    display: flex;
+    flex-direction: column;
+    font-family: "yekanBakhRegular";
+    line-height: 0px;
+    margin-top: 50px;
+}
+
+.introing .description-introing h3 {
+    color: #747480;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.introing .description-introing p {
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.introing .description-introing hr {
+    height: 2px;
+}
+
+.introing img {
+    width: 463px;
+    height: 483px;
+}
+
+.info-button {
+    border: 0;
+    background-color: rgba(232, 239, 254, .6);
+    color: #28457b !important;
+    font-family: "yekanBakhRegular";
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-weight: bold;
+}
